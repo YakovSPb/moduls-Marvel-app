@@ -1,0 +1,22 @@
+{
+  "name": "moduls",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel public/index.html -- open",
+    "build": "parcel build public/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "postcss-modules": "^3.2.2",
+    "sass": "^1.26.10"
+  },
+  "dependencies": {
+    "axios": "^0.20.0",
+    "img": "^3.0.3"
+  }
+}
